@@ -1,0 +1,104 @@
+body {
+  font-family: 'Roboto Condensed', sans-serif;
+  background-color: #f4f5f6;
+}
+
+body .container {
+  max-width: 1310px;
+}
+
+header .brand-nav {
+  background-color: #f72210;
+  color: #fff;
+  height: 95px;
+  padding: 20px 10px 15px;
+}
+
+.brand .logo {
+  width: 396px;
+  height: 60px;
+}
+
+.brand-nav .date {
+  margin-bottom: 4px;
+  margin-left: 20px;
+  margin-right: 43px;
+  font-size: 16px;
+}
+
+.brand-nav .buttons {
+  font-size: 18px;
+}
+
+.buttons .sign-in,
+.buttons .subscribe {
+  font-weight: bold;
+}
+
+.buttons .sign-in {
+  color: #fff;
+  padding: 2px 5px;
+}
+
+.buttons .subscribe {
+  color: #f72210;
+  background-color: #fff;
+  padding: 2px 12px;
+}
+
+header .navbar {
+  font-size: 20px;
+  line-height: 24px;
+  font-weight: bold;
+  margin: 0 -15px;
+  background-color: #f72210;
+}
+
+.navbar .navbar-nav {
+  padding: 15px 75px 15px 10px;
+  clip-path: polygon(0 0, calc(100% - 80px) 0, calc(100% - 68px) 13px, 100% 13px, 100% 54px, 0 54px);
+}
+
+.navbar-nav .nav-item {
+  border-left: 1px solid #d9d9d9;
+  text-align: center;
+  flex-grow: 1;
+}
+
+.nav-item .nav-link {
+  color: #000;
+  padding: 0 !important;
+  flex: 1;
+}
+
+.search .nav-link {
+  font-weight: 100;
+  font-size: 17px;
+  opacity: 0.6;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.search svg {
+  width: 20px;
+  opacity: 1;
+}
+
+/* Styles for tablet/small desktop screens */
+
+@media screen and (max-width: 991px) {
+  .brand .logo {
+    width: 132px;
+    height: 20px;
+    margin-top: 0;
+  }
+
+  header .brand-nav {
+    height: 50px;
+    padding: 12px;
+  }
+
+  .buttons .menu-icon {
+    color: #fb9a94;
+    padding: 11px 22px;
+  }
+}
