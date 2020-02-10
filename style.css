@@ -135,8 +135,7 @@ header .navbar {
   color: #f72210;
 }
 
-.featured-article .summary,
-.sponsored-container .summary {
+.top-articles .summary {
   font-family: Arial, Helvetica, sans-serif;
   font-size: 15px;
   line-height: 20px;
@@ -155,6 +154,41 @@ header .navbar {
 .sponsored-container .card {
   margin-bottom: 30px;
   border-radius: 0;
+}
+
+.top-articles .culture,
+.culture .card-body {
+  background-color: #f4f5f7;
+}
+
+.culture .column-title {
+  padding: 10px 0 0 10px;
+}
+
+.culture .card {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.culture .article-heading {
+  font-size: 20px;
+  font-weight: normal;
+  color: #272727;
+}
+
+.culture .article-heading a:hover {
+  text-decoration: none;
+}
+
+.card-body .tag {
+  background-color: #c2d4d7;
+  padding: 6px;
+  margin: 6px 0;
+  font-size: 13px;
+}
+
+.story .article-heading {
+  font-size: 17px;
+  font-weight: bold;
 }
 
 /* Styles for tablet/small desktop screens */
