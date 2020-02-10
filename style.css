@@ -7,6 +7,11 @@ body .container {
   max-width: 1310px;
 }
 
+.container a {
+  color: inherit;
+  text-decoration: none;
+}
+
 header .brand-nav {
   background-color: #f72210;
   color: #fff;
@@ -52,11 +57,12 @@ header .navbar {
   font-weight: bold;
   margin: 0 -15px;
   background-color: #f72210;
+  border-bottom: 1px solid #f4f5f6;
 }
 
 .navbar .navbar-nav {
   padding: 15px 75px 15px 10px;
-  clip-path: polygon(0 0, calc(100% - 80px) 0, calc(100% - 68px) 13px, 100% 13px, 100% 54px, 0 54px);
+  clip-path: polygon(0 0, calc(100% - 80px) 0, calc(100% - 68px) 13px, 100% 13px, 101% 55px, 0 55px);
 }
 
 .navbar-nav .nav-item {
@@ -81,6 +87,74 @@ header .navbar {
 .search svg {
   width: 20px;
   opacity: 1;
+}
+
+.container .main-container {
+  margin: 0 -15px;
+  padding: 30px;
+}
+
+.top-articles .column-title {
+  font-size: 16px;
+  line-height: 16px;
+  font-weight: bold;
+  text-transform: uppercase;
+  padding-bottom: 11px;
+  color: #03030366;
+}
+
+.featured-article .article-heading,
+.sponsored-container .article-heading {
+  font-size: 23px;
+  line-height: 24px;
+  color: #000;
+  font-weight: bold;
+}
+
+.featured-article .img,
+.sponsored-container .img {
+  position: relative;
+}
+
+.featured-article .category,
+.sponsored-container .category {
+  padding: 8px 15px;
+  background-color: rgba(255, 255, 255, 0.9);
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  z-index: 1;
+  color: #3581f4;
+  font-size: 17px;
+  line-height: 16px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.featured-article .category {
+  color: #f72210;
+}
+
+.featured-article .summary,
+.sponsored-container .summary {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 15px;
+  line-height: 20px;
+  color: #333;
+}
+
+.article-heading a:hover {
+  text-decoration: underline;
+  text-decoration-color: #f72210;
+}
+
+.related li:hover {
+  color: #f72210;
+}
+
+.sponsored-container .card {
+  margin-bottom: 30px;
+  border-radius: 0;
 }
 
 /* Styles for tablet/small desktop screens */
