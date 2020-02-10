@@ -191,6 +191,19 @@ header .navbar {
   font-weight: bold;
 }
 
+.opinion .opinion-title {
+  font-size: 17px;
+}
+
+.top-articles .opinion-title a:hover {
+  color: #f72210;
+}
+
+.opinion .by {
+  font-size: 14px;
+  color: #555;
+}
+
 /* Styles for tablet/small desktop screens */
 
 @media screen and (max-width: 991px) {
