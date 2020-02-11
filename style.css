@@ -226,6 +226,10 @@ header .navbar {
   font-size: 15px;
 }
 
+.magazine .article-heading {
+  font-size: 19px;
+}
+
 .magazine .see-all {
   background-color: #f4f5f6;
   color: black;
@@ -255,6 +259,17 @@ header .navbar {
 .magazine img {
   object-fit: cover;
   width: 100%;
+}
+
+.slideshows .category {
+  width: 70px;
+  height: 52px;
+  font-size: 20px;
+  line-height: 45px;
+  text-indent: 5px;
+  text-align: center;
+  background: url("https://g.newsweek.com/themes/newsweek/images/icon-slideshows-nw.png") 0 0/contain no-repeat;
+  color: #e9212e;
 }
 
 /* Styles for tablet/small desktop screens */
