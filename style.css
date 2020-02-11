@@ -272,6 +272,11 @@ header .navbar {
   color: #e9212e;
 }
 
+.section-picks .heading {
+  color: #f72210;
+  font-size: 22px;
+}
+
 /* Styles for tablet/small desktop screens */
 
 @media screen and (max-width: 991px) {
