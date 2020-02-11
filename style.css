@@ -206,6 +206,13 @@ header .navbar {
   color: #555;
 }
 
+.main-container .logo-n {
+  width: 30px;
+  height: 30px;
+  background-color: red;
+  fill: white;
+}
+
 .sponsored-container .sign-up {
   background-color: #f4f5f6;
 }
@@ -217,6 +224,37 @@ header .navbar {
 .sign-up .card-text {
   color: #333;
   font-size: 15px;
+}
+
+.magazine .see-all {
+  background-color: #f4f5f6;
+  color: black;
+  text-align: center;
+  padding: 10px;
+  font-size: 18px;
+}
+
+.magazine .see-all:hover {
+  background-color: #dbdcdd;
+}
+
+.main-container .section-heading {
+  font-size: 19px;
+}
+
+.magazine .mag-cat {
+  padding: 0 7px;
+  background-color: #f72210;
+  margin-right: 7px;
+}
+
+.magazine .cat {
+  color: #f72210;
+}
+
+.magazine img {
+  object-fit: cover;
+  width: 100%;
 }
 
 /* Styles for tablet/small desktop screens */
