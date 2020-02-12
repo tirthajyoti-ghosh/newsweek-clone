@@ -1,0 +1,436 @@
+body {
+  font-family: 'Roboto Condensed', sans-serif;
+  background-color: #f4f5f6;
+}
+
+body .container {
+  max-width: 1310px;
+}
+
+body .mx-neg-15 {
+  margin: 0 -15px;
+}
+
+.container a {
+  color: inherit;
+  text-decoration: none;
+}
+
+header .brand-nav {
+  background-color: #f72210;
+  color: #fff;
+  height: 95px;
+  padding: 20px 10px 15px;
+}
+
+.brand .logo {
+  width: 396px;
+  height: 60px;
+}
+
+.brand-nav .date {
+  margin-bottom: 4px;
+  margin-left: 20px;
+  margin-right: 43px;
+  font-size: 16px;
+}
+
+.brand-nav .buttons {
+  font-size: 18px;
+}
+
+.buttons .sign-in,
+.buttons .subscribe {
+  font-weight: bold;
+}
+
+.buttons .sign-in {
+  color: #fff;
+  padding: 2px 5px;
+}
+
+.buttons .subscribe {
+  color: #f72210;
+  background-color: #fff;
+  padding: 2px 12px;
+}
+
+header .navbar {
+  font-size: 20px;
+  line-height: 24px;
+  font-weight: bold;
+  background-color: #f72210;
+  border-bottom: 1px solid #f4f5f6;
+}
+
+.navbar .navbar-nav {
+  padding: 15px 75px 15px 10px;
+  clip-path: polygon(0 0, calc(100% - 80px) 0, calc(100% - 68px) 13px, 100% 13px, 101% 55px, 0 55px);
+}
+
+.navbar-nav .nav-item {
+  border-left: 1px solid #d9d9d9;
+  text-align: center;
+  flex-grow: 1;
+}
+
+.nav-item .nav-link {
+  color: #000;
+  padding: 0 !important;
+  flex: 1;
+}
+
+.search .nav-link {
+  font-weight: 100;
+  font-size: 17px;
+  opacity: 0.6;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.search svg {
+  width: 20px;
+  opacity: 1;
+}
+
+.container .main-container {
+  padding: 30px;
+}
+
+.container .column-title {
+  font-size: 16px;
+  line-height: 16px;
+  font-weight: bold;
+  text-transform: uppercase;
+  padding-bottom: 11px;
+  color: #03030366;
+}
+
+.featured-article .article-heading,
+.sponsored-container .article-heading {
+  font-size: 23px;
+  line-height: 24px;
+  color: #000;
+  font-weight: bold;
+}
+
+.featured-article .img,
+.sponsored-container .img {
+  position: relative;
+}
+
+.featured-article .category,
+.sponsored-container .category {
+  padding: 8px 15px;
+  background-color: rgba(255, 255, 255, 0.9);
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  z-index: 1;
+  color: #3581f4;
+  font-size: 17px;
+  line-height: 16px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.featured-article .category {
+  color: #f72210;
+}
+
+.container .summary {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 15px;
+  line-height: 20px;
+  color: #333;
+}
+
+.article-heading a:hover {
+  text-decoration: underline;
+  text-decoration-color: #f72210;
+}
+
+.related li:hover {
+  color: #f72210;
+}
+
+.sponsored-container .card {
+  margin-bottom: 30px;
+  border-radius: 0;
+}
+
+.top-articles .culture,
+.culture .card-body {
+  background-color: #f4f5f7;
+}
+
+.culture .column-title {
+  padding: 10px 0 0 10px;
+}
+
+.culture .card {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.culture .article-heading {
+  font-size: 20px;
+  font-weight: normal;
+  color: #272727;
+}
+
+.culture .article-heading a:hover {
+  text-decoration: none;
+}
+
+.card-body .tag {
+  background-color: #c2d4d7;
+  padding: 6px;
+  margin: 6px 0;
+  font-size: 13px;
+}
+
+.story .article-heading {
+  font-size: 17px;
+  font-weight: bold;
+}
+
+.opinion .opinion-title {
+  font-size: 17px;
+}
+
+.top-articles .opinion-title a:hover {
+  color: #f72210;
+}
+
+.opinion .by {
+  font-size: 14px;
+  color: #555;
+}
+
+.main-container .logo-n {
+  width: 30px;
+  height: 30px;
+  background-color: red;
+  fill: white;
+}
+
+.sponsored-container .sign-up {
+  background-color: #f4f5f6;
+}
+
+.sign-up .btn {
+  font-size: 18px;
+}
+
+.sign-up .card-text {
+  color: #333;
+  font-size: 15px;
+}
+
+.magazine .article-heading {
+  font-size: 19px;
+}
+
+.magazine .see-all {
+  background-color: #f4f5f6;
+  color: black;
+  text-align: center;
+  padding: 10px;
+  font-size: 18px;
+}
+
+.magazine .see-all:hover {
+  background-color: #dbdcdd;
+}
+
+.main-container .section-heading {
+  font-size: 19px;
+}
+
+.magazine .mag-cat {
+  padding: 0 7px;
+  background-color: #f72210;
+  margin-right: 7px;
+}
+
+.magazine .cat {
+  color: #f72210;
+}
+
+.magazine img {
+  object-fit: cover;
+  width: 100%;
+}
+
+.slideshows .category {
+  width: 70px;
+  height: 52px;
+  font-size: 20px;
+  line-height: 45px;
+  text-indent: 5px;
+  text-align: center;
+  background: url("https://g.newsweek.com/themes/newsweek/images/icon-slideshows-nw.png") 0 0/contain no-repeat;
+  color: #e9212e;
+}
+
+.section-picks .heading {
+  color: #f72210;
+  font-size: 22px;
+}
+
+.container .subscription {
+  max-width: 1310px;
+}
+
+.subscription .signup-img {
+  object-fit: cover;
+}
+
+.subscription .bg-light {
+  background-color: #f4f5f6 !important;
+}
+
+.subscription .p-30 {
+  padding: 30px;
+}
+
+.subscription .buttons {
+  padding: 6px 10px;
+  color: white;
+  background-color: #f72210;
+  font-size: 18px;
+}
+
+.subscription .title {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.subscription .mag-img {
+  width: 170px;
+}
+
+.mag-img .img2 {
+  top: 13px;
+  left: 80px;
+}
+
+.container footer {
+  color: #666;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+footer .logo-red {
+  width: 236px;
+  height: 36px;
+  margin-right: 15px;
+  margin-bottom: 12px;
+}
+
+footer .copyright {
+  font-size: 12px;
+  margin-bottom: 12px;
+}
+
+footer .social {
+  color: #666;
+  font-size: 24px;
+}
+
+.social .fa-facebook-square:hover {
+  color: #3b5998;
+}
+
+.social .fa-twitter:hover {
+  color: #1da1f2;
+}
+
+.social .fa-instagram:hover {
+  color: #405de6;
+}
+
+.social .fa-tumblr:hover {
+  color: #35465c;
+}
+
+.social .fa-linkedin-in:hover {
+  color: #0077b5;
+}
+
+footer .footer-links {
+  font-size: 14px;
+}
+
+.edition strong {
+  display: inline-block;
+  margin-top: 6px;
+  margin-right: 10px;
+}
+
+.menu .menu-item {
+  display: inline-block;
+  border-right: 1px solid #d9d9d9;
+  padding-right: 10px;
+  margin: 6px 10px 6px 0;
+}
+
+.menu .menu-item a:hover {
+  color: black;
+}
+
+/* Styles for small desktop screens */
+
+@media screen and (max-width: 991px) {
+  .brand .logo {
+    width: 132px;
+    height: 20px;
+    margin-top: 0;
+  }
+
+  header .brand-nav {
+    height: 50px;
+    padding: 12px;
+    position: fixed;
+    top: 0;
+    z-index: 99;
+    width: 100%;
+  }
+
+  .opinion .opinion-title {
+    font-size: 20px;
+  }
+
+  .buttons .menu-icon {
+    color: #fb9a94;
+    padding: 11px 22px;
+  }
+
+  .subscription .p-20 {
+    padding: 20px;
+  }
+}
+
+/* Styles for tablet devices */
+
+/* @media screen and (max-width: 768px) {
+} */
+
+/* Styles for mobile devices */
+
+@media screen and (max-width: 480px) {
+  .brand-nav .buttons {
+    font-size: 14px;
+    align-self: center;
+  }
+
+  .buttons .subscribe {
+    padding: 5px 0 5px 3px;
+  }
+
+  .subscribe .fas {
+    display: none;
+  }
+
+  .buttons .menu-icon {
+    padding: 0 15px;
+  }
+}
