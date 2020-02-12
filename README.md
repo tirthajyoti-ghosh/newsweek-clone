@@ -34,7 +34,7 @@ It shows you a static clone of [Newsweek](https://www.newsweek.com/).
 
 ## Live Demo
 
-[Live Demo](https://rawcdn.githack.com/tirthajyoti-ghosh/newsweek-clone/ac5aea10be82e4300ef2b8f1b77a41f49f7833b9/index.html)
+[Live Demo](https://rawcdn.githack.com/tirthajyoti-ghosh/newsweek-clone/f8fba05ede8fe48b6ad071f23cd66d38ad9388fb/index.html)
 
 ## 🤝 Contributing
 
