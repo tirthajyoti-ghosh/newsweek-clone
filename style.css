@@ -395,6 +395,10 @@ footer .footer-links {
     width: 100%;
   }
 
+  .opinion .opinion-title {
+    font-size: 20px;
+  }
+
   .buttons .menu-icon {
     color: #fb9a94;
     padding: 11px 22px;
@@ -408,7 +412,6 @@ footer .footer-links {
 /* Styles for tablet devices */
 
 /* @media screen and (max-width: 768px) {
-
 } */
 
 /* Styles for mobile devices */
@@ -429,10 +432,5 @@ footer .footer-links {
 
   .buttons .menu-icon {
     padding: 0 15px;
-  }
-
-  .subscription .mag-img {
-    margin-left: 0 !important;
-    margin-right: 0 !important;
   }
 }
