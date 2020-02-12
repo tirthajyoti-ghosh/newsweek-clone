@@ -96,7 +96,7 @@ header .navbar {
   padding: 30px;
 }
 
-.top-articles .column-title {
+.container .column-title {
   font-size: 16px;
   line-height: 16px;
   font-weight: bold;
@@ -137,7 +137,7 @@ header .navbar {
   color: #f72210;
 }
 
-.main-container .summary {
+.container .summary {
   font-family: Arial, Helvetica, sans-serif;
   font-size: 15px;
   line-height: 20px;
@@ -277,7 +277,44 @@ header .navbar {
   font-size: 22px;
 }
 
-/* Styles for tablet/small desktop screens */
+.container .subscription {
+  max-width: 1310px;
+}
+
+.subscription .signup-img {
+  object-fit: cover;
+}
+
+.subscription .bg-light {
+  background-color: #f4f5f6 !important;
+}
+
+.subscription .p-30 {
+  padding: 30px;
+}
+
+.subscription .buttons {
+  padding: 6px 10px;
+  color: white;
+  background-color: #f72210;
+  font-size: 18px;
+}
+
+.subscription .title {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.subscription .mag-img {
+  width: 170px;
+}
+
+.mag-img .img2 {
+  top: 13px;
+  left: 80px;
+}
+
+/* Styles for small desktop screens */
 
 @media screen and (max-width: 991px) {
   .brand .logo {
@@ -295,7 +332,17 @@ header .navbar {
     color: #fb9a94;
     padding: 11px 22px;
   }
+
+  .subscription .p-20 {
+    padding: 20px;
+  }
 }
+
+/* Styles for tablet devices */
+
+/* @media screen and (max-width: 768px) {
+
+} */
 
 /* Styles for mobile devices */
 
@@ -315,5 +362,10 @@ header .navbar {
 
   .buttons .menu-icon {
     padding: 0 15px;
+  }
+
+  .subscription .mag-img {
+    margin-left: 0 !important;
+    margin-right: 0 !important;
   }
 }
