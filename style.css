@@ -389,6 +389,10 @@ footer .footer-links {
   header .brand-nav {
     height: 50px;
     padding: 12px;
+    position: fixed;
+    top: 0;
+    z-index: 99;
+    width: 100%;
   }
 
   .buttons .menu-icon {
