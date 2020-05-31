@@ -305,13 +305,13 @@ header .navbar {
   font-weight: bold;
 }
 
-.subscription .mag-img {
-  width: 170px;
+.mag-img .img1 {
+  left: 55px;
 }
 
 .mag-img .img2 {
   top: 13px;
-  left: 80px;
+  right: 55px;
 }
 
 .container footer {
@@ -411,7 +411,7 @@ footer .footer-links {
 
 /* Styles for tablet devices */
 
-/* @media screen and (max-width: 768px) {
+/* @media screen and (max-width: 768px) {  
 } */
 
 /* Styles for mobile devices */
